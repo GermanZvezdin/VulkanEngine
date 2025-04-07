@@ -3,7 +3,6 @@
 int main() {
 
     MainLoop app;
-
     try {
         app.run();
     } catch (const std::exception& e) {
